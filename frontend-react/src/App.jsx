@@ -81,7 +81,11 @@ function App() {
       
       {/* Lista de tareas con scroll */}
       <div style={{flex:1, display:'flex', flexDirection:'column'}}>
-        <h1 style={{textAlign:'left'}}>To-Do List (React)</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+       alt="React" 
+       style={{ width: 33, verticalAlign: 'middle', marginRight: 8 }} />
+      <h1 style={{ textAlign: 'left' }}>To-Do List (React)</h1>
+
         <p><strong>Total de registros:</strong> {todos.length}</p>
 
         <div style={{
@@ -120,7 +124,7 @@ function App() {
         display:'flex',
         justifyContent:'flex-end',
         alignItems:'center',
-        marginLeft:200
+        marginLeft:190
       }}>
         <form onSubmit={handleSubmit} style={{
           background:'#fff3', // fondo transparente

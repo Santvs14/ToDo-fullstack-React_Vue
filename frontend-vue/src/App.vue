@@ -11,7 +11,9 @@
   >
     <!-- LISTADO DE TAREAS CON SCROLL -->
     <div style="flex:1; display:flex; flex-direction:column;">
-      <h1 style="text-align:left;">To-Do List (Vue)</h1>
+      <img src="https://vuejs.org/images/logo.png" alt="Vue" style="width:33px; vertical-align:middle; margin-right:8px;" />
+      <h1 style="text-align:left;"> To-Do List (Vue)</h1>
+
       <p><strong>Total de registros:</strong> {{ todos.length }}</p>
 
       <div
@@ -74,7 +76,7 @@
           border:1px solid #ccc;
         "
       >
-        <h2 style="text-align:center; margin-bottom:20px; font-weight:bold; color:#333;">
+        <h2 style="text-align:center; margin-bottom:20px; font-weight:bold; color:#fff;">
           📝 {{ editingId ? 'Editar To-Do' : 'Crear To-Do' }}
         </h2>
         <input
@@ -87,7 +89,7 @@
             font-size:16px;
             border-radius:8px;
             border:1px solid #ccc;
-            background-color:#f0f0f0;
+            background-color:#000;
           "
         />
         <input
@@ -100,7 +102,7 @@
             font-size:16px;
             border-radius:8px;
             border:1px solid #ccc;
-            background-color:#f0f0f0;
+            background-color:#000;
           "
         />
         <textarea
@@ -114,7 +116,7 @@
             font-size:16px;
             border-radius:8px;
             border:1px solid #ccc;
-            background-color:#f0f0f0;
+            background-color:#000;
           "
         ></textarea>
         <button
