@@ -1,0 +1,11 @@
+# En este archivo, se añaden las entradas que se requieren ignorar.
+
+
+# Node modules : Ignora toda la carpeta de dependencias instaladas.
+node_modules/  
+
+# Variables de entorno : Archivo común para variables sensibles (claves API, contraseñas, etc.).
+.env
+
+# Archivos del sistema de macOS : Archivo de macOS que no necesitas en el repositorio.
+.DS_Store
