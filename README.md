@@ -18,9 +18,10 @@ Proyecto de prueba técnica: To-Do List con 2 frontends (React y Vue) y un backe
 
 ### Backend
 1. `cd backend`
-2. Copiar `.env.example` a `.env` y configurar `MONGODB_URI`(IMPORTANTE: Para tener acceso y que funcione totalmente el proyecto se debe colocar en cada entorno el archivo que contine las variables de entorno asi como tambien, dar permiso a la IP que este por correr el proyecto.)
-3. `npm install`
-4. `npm run dev` (desarrollo)
+2. Copiar `.env.example` a `.env` y configurar `MONGODB_URI`
+3. (IMPORTANTE: Para tener acceso y que funcione totalmente el proyecto se debe colocar en cada entorno el archivo que contine las variables de entorno asi como tambien, dar permiso a la IP que este por correr el proyecto.)
+4. `npm install`
+5. `npm run dev` (desarrollo)
 
 ### Frontend React
 1. `cd frontend-react`
